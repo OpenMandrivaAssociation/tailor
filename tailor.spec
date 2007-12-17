@@ -7,7 +7,6 @@ Source0:	http://darcs.arstecnica.it/tailor-%{version}.tar.bz2
 License:	GPL
 Group:		Development/Other
 Url:		http://progetti.arstecnica.it/tailor
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	python-devel
 Requires:	python
 Provides:	python-vcpx = %{version}-%{release}
