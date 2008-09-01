@@ -1,9 +1,9 @@
 
 Summary:	A tool to migrate changesets between several version control systems
 Name:		tailor
-Version:	0.9.30
-Release:	%mkrel 4
-Source0:	http://darcs.arstecnica.it/tailor-%{version}.tar.bz2
+Version:	0.9.35
+Release:	%mkrel 1
+Source0:	http://darcs.arstecnica.it/tailor-%{version}.tar.gz
 License:	GPL
 Group:		Development/Other
 Url:		http://progetti.arstecnica.it/tailor
@@ -46,7 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 %{py_puresitedir}/vcpx
 %{py_puresitedir}/*.egg-info
 #%{_mandir}/man*/*
-%doc README
+%doc README.rst
 
 
 
