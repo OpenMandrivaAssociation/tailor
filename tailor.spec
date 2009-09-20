@@ -2,7 +2,7 @@
 Summary:	A tool to migrate changesets between several version control systems
 Name:		tailor
 Version:	0.9.35
-Release:	%mkrel 2
+Release:	%mkrel 3
 Source0:	http://darcs.arstecnica.it/tailor-%{version}.tar.gz
 License:	GPL
 Group:		Development/Other
