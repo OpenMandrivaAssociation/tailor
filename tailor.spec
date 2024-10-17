@@ -6,7 +6,7 @@ Release:	5
 Source0:	http://darcs.arstecnica.it/tailor-%{version}.tar.gz
 License:	GPL
 Group:		Development/Other
-Url:		http://progetti.arstecnica.it/tailor
+Url:		https://progetti.arstecnica.it/tailor
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	python-devel
 Requires:	python
